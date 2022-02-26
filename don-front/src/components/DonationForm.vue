@@ -105,17 +105,13 @@ export default {
           currency: this.form.currency.code,
         });
         this.$notification.success({
-          title: "Successfull Donated!",
+          title: "Successfully Donated!",
           message: message,
         });
-      } catch ({
-        response: {
-          data: { error },
-        },
-      }) {
+      } catch (err) {
         this.$notification.error({
           title: "Error",
-          message: error[0],
+          message: err?.response?.data?.error[0] || "Something went wrong",
         });
       }
       this.loading = false;
