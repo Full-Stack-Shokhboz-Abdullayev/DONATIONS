@@ -101,7 +101,7 @@ export default {
         const {
           data: { message },
         } = await axios.post("/donations/donate", {
-          ...this.form,
+          amount: new Number(this.form.amount),
           currency: this.form.currency.code,
         });
         this.$notification.success({
