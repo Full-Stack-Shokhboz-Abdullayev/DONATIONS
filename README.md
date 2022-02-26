@@ -1,6 +1,6 @@
 # Donations App
-### [How to run Backend](https://github.com/Full-Stack-Shokhboz-Abdullayev/DONATIONS/don-back)
-### [How to run Frontend](https://github.com/Full-Stack-Shokhboz-Abdullayev/DONATIONS/don-front)
+### [How to run Backend](https://github.com/Full-Stack-Shokhboz-Abdullayev/DONATIONS/tree/master/don-back/README.md)
+### [How to run Frontend](https://github.com/Full-Stack-Shokhboz-Abdullayev/DONATIONS/tree/master/don-front/README.md)
 
 ## What challender I faced?
 
